@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* background: #f4f4f4; */
+    background-color: rgb(229, 254, 254);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background: rgb(7, 106, 143);
+    color: white;
+}
+
+.header a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+.container {
+    padding: 40px;
+}
+
+/* PROFILE */
+/* PROFILE LAYOUT */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* Left */
+.profile-photo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Center */
+.profile-name {
+    flex: 2;
+    text-align: center;
+    /* background-color: #ccc; */
+    margin: 90px;
+}
+
+.profile-name h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;   /* BIG name */
+    font-weight: 400;
+    color: red;
+}
+
+/* Right */
+.profile-contact {
+    flex: 1;
+    text-align: left;
+}
+
+.profile-contact a{
+    text-decoration: none;
+}
+
+/* Photo circle */
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ABOUT */
+.about {
+    margin-top: 30px;
+}
+
+.about p{
+    margin-top: 10px;
+    padding-left: 60px;
+    font-style: italic;
+}
+
+/* EDUCATION & SKILLS */
+.three-box {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    /* background: pink; */
+    background-color: rgb(151, 230, 230);
+    border-radius: 5px;
+}
+
+.box ul{
+    margin-left: 20px;
+}
+
+.box h3{
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    background: #222;
+    color: white;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #ff9800;
+    border: none;
+    cursor: pointer;
+}
