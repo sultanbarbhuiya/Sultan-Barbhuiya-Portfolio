@@ -6,11 +6,9 @@
 }
 
 body {
-    /* background: #f4f4f4; */
     background-color: rgb(229, 254, 254);
 }
 
-/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -25,13 +23,10 @@ body {
     text-decoration: none;
 }
 
-/* CONTAINER */
 .container {
     padding: 40px;
 }
 
-/* PROFILE */
-/* PROFILE LAYOUT */
 .profile {
     display: flex;
     align-items: center;
@@ -39,29 +34,25 @@ body {
     margin-bottom: 30px;
 }
 
-/* Left */
 .profile-photo {
     flex: 1;
     display: flex;
     justify-content: flex-start;
 }
 
-/* Center */
 .profile-name {
     flex: 2;
     text-align: center;
-    /* background-color: #ccc; */
     margin: 90px;
 }
 
 .profile-name h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 42px;   /* BIG name */
+    font-size: 42px;
     font-weight: 400;
     color: red;
 }
 
-/* Right */
 .profile-contact {
     flex: 1;
     text-align: left;
@@ -71,7 +62,6 @@ body {
     text-decoration: none;
 }
 
-/* Photo circle */
 .photo {
     width: 150px;
     height: 150px;
@@ -93,7 +83,6 @@ img {
     justify-content: center;
 }
 
-/* ABOUT */
 .about {
     margin-top: 30px;
 }
@@ -104,7 +93,6 @@ img {
     font-style: italic;
 }
 
-/* EDUCATION & SKILLS */
 .three-box {
     display: flex;
     gap: 50px;
@@ -114,7 +102,6 @@ img {
 .box {
     flex: 1;
     padding: 20px;
-    /* background: pink; */
     background-color: rgb(151, 230, 230);
     border-radius: 5px;
 }
@@ -127,7 +114,6 @@ img {
     text-align: center;
 }
 
-/* FOOTER */
 .footer {
     margin-top: 50px;
     padding: 30px;
