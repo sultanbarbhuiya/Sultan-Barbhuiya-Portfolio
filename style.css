@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
@@ -44,6 +43,10 @@ body {
     flex: 2;
     text-align: center;
     margin: 90px;
+}
+
+.profile-name p span{
+    color: red;
 }
 
 .profile-name h1 {
